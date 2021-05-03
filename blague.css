@@ -1,0 +1,108 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body header{
+    background-color: rgb(128, 16, 16);
+    font-size: 50px;
+    background-size: 100%;
+}
+
+body{
+    background-color: darkblue;
+}
+
+img.logo{
+    width: 200px;
+    border-radius: 100px;
+}
+
+header{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-left: 150px;
+    color: white;
+}
+
+nav li:hover a{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+li.blague a{
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li.surprise{
+    margin-left: 150px;
+}
+
+div.box{
+    margin-top: 300px;
+}
+
+div.ronfle{
+    display: flex;
+    text-align: center;
+}
+
+p.ronfle{
+    font-size: 200px;
+    margin-left: 250px
+}
+
+div.pipi{
+    display: flex;
+    text-align: center;
+}
+
+p.pipi{
+    font-size: 200px;
+    margin-left: 250px
+}
+
+p.pipi2{
+    font-size: 200px;
+    margin-left: px
+}
+
+img.pipi{
+    margin-right: 0px;
+    margin-left: 530px;
+    width: 800px;
+    height: 550px;
+    margin-top: 150px;
+}
+
+div.papa{
+    display: flex;
+    text-align: center;
+}
+
+p.papa{
+    font-size: 200px;
+    margin-left: 250px
+}
+
+ul.copy{
+    display: flex;
+    list-style: none;
+}
+
+li.fetemaman{
+    margin-left: 1600px;
+}

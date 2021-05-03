@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(image/fond.jpg) no-repeat;
+    background-size: 100%; 
+}
+
+header{
+    background-color: rgb(128, 16, 16);
+    font-size: 50px;
+    background-size: 100%;
+}
+
+img.logo{
+    width: 200px;
+    border-radius: 100px;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+nav li:hover a{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+li.accueil{
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+
+li.blague{
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+li.surprise{
+    margin-left: 150px;
+}
+
+
+p.slogan{
+    font-size: 200px;
+    margin-top: 420px;
+    color: red;
+   text-align: center;
+}
+
+
+
+ul.copy{
+    display: flex;
+    list-style: none;
+}
+
+li.fetemaman{
+    margin-left: 1640px;
+}
